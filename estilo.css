@@ -41,7 +41,7 @@ header {
 
 .logo a {
     margin: 20px;
-    background: url(../logo.svg) no-repeat ; 
+    background: url(logo.svg) no-repeat ; 
     background-size: cover;
     width: 202px;
     height: 88px;
