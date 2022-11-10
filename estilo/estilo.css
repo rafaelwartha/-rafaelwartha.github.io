@@ -41,7 +41,7 @@ header {
 
 .logo a {
     margin: 20px;
-    background: url(logo.svg) no-repeat ; 
+    background: url(../imagens/logo.svg) no-repeat ; 
     background-size: cover;
     width: 202px;
     height: 88px;
@@ -127,7 +127,7 @@ nav ul li a:link {
 }
 
 .fundo-principal {
-    background: url(fundo.jpg);
+    background: url(../imagens/fundo.jpg);
     width: 100vw;
     height: 50%;
     background-size: cover;
