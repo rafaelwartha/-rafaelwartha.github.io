@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(65, 65, 65, 0.952);
+    
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-width: 500px;
+    max-width: 1080px;
+    justify-content: center;
+    
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 202px;
+    background-color:#9cf;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo a {
+    margin: 20px;
+    background: url(../imagens//logo.svg) no-repeat ; 
+    background-size: cover;
+    width: 202px;
+    height: 88px;
+    text-indent: -9999px;
+    display: block;
+}
+/*************************************************************/
+/******************** BARA DE NAVEGACAO **********************/
+/*************************************************************/
+
+nav {
+    width: 540px;
+    max-width: 1080px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-left: 3px;
+    
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    color: #9cf;
+}
+
+nav ul li a:link {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    }
+    
+    nav ul li:hover {
+        background-color: rgba(255, 255, 255, 0.253);
+        color: #fff;
+    }
+
+    nav ul li a:hover {
+        
+        color: black;
+    }
+
+    .active {
+
+        background-color: #fff;
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+
+    }
+
+/*************************************************************/
+/******************** FIM BARA NAVEGACAO **********************/
+/*************************************************************/
+
+/*************************************************************/
+/******************** CONTEUDO PRINCIPAL **********************/
+/*************************************************************/
+
+#principal {
+
+
+}
+
+.fundo-principal {
+    background: url(../imagens/fundo.jpg);
+    width: 100vw;
+    height: 50%;
+    background-size: cover;
+}
+
+
+
+
+
