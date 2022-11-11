@@ -5,16 +5,16 @@
 
 body {
     margin: 0 auto;
-    background-color: #95b0db;
+    background-color: #fff;
     
 }
 
 #container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #95b0db;
     min-width: 500px;
     max-width: 1080px;
     justify-content: center;
@@ -123,56 +123,40 @@ nav ul li a:link {
 
 .principal {
     background:  #95b0db;
-    width: 100vw;
-    height: 100%;
-    
     background-size: cover;
-    display: grid;
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+
+    min-width: 500px;
+    max-width: 1080px;
     
+}
+
+
+
+#foto {
+    padding: 20px;
+    background-size: contain;
+    width: 500px;   
+    height: 350px;
+    padding: 0;
+    margin: 15px;
 }
 
 .foto1 { 
     background: url(../fotos/1.jpeg) no-repeat center ;
-    padding: 50px;
-    background-size: contain;
-    width: 920px;
-    height: 500px;
-    padding: 0;
-    margin: 15px;
-   
 }
-
 .foto2 { 
-    background: url(../fotos/2.jpeg) no-repeat center ;
-    padding: 50px;
-    background-size: contain;
-    width: 920px;
-    height: 500px;
-    padding: 0;
-    margin: 15px;
-   
+    background: url(../fotos/2.jpeg) no-repeat center ; 
 }
 .foto3 { 
     background: url(../fotos/3.jpeg) no-repeat center ;
-    padding: 50px;
-    background-size: contain;
-    width: 920px;
-    height: 500px;
-    padding: 0;
-    margin: 15px;
 }
 
 .foto4 { 
-    background: url(../fotos/4.jpeg) no-repeat center ;
-    padding: 50px;
-    background-size: contain;
-    width: 920px;
-    height: 500px;
-    padding: 0;
-    margin: 15px;
-   
+    background: url(../fotos/4.jpeg) no-repeat center ; 
 }
 
 
