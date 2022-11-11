@@ -134,7 +134,7 @@ nav ul li a:link {
 }
 
 .foto1 { 
-    background: url(../imagens/fotos/1.jpeg) no-repeat center ;
+    background: url(../fotos/1.jpeg) no-repeat center ;
     padding: 50px;
     background-size: contain;
     width: 920px;
@@ -145,7 +145,7 @@ nav ul li a:link {
 }
 
 .foto2 { 
-    background: url(../imagens/fotos/2.jpeg) no-repeat center ;
+    background: url(../fotos/2.jpeg) no-repeat center ;
     padding: 50px;
     background-size: contain;
     width: 920px;
@@ -155,7 +155,7 @@ nav ul li a:link {
    
 }
 .foto3 { 
-    background: url(../imagens/fotos/3.jpeg) no-repeat center ;
+    background: url(../fotos/3.jpeg) no-repeat center ;
     padding: 50px;
     background-size: contain;
     width: 920px;
@@ -165,7 +165,7 @@ nav ul li a:link {
 }
 
 .foto4 { 
-    background: url(../imagens/fotos/4.jpeg) no-repeat center ;
+    background: url(../fotos/4.jpeg) no-repeat center ;
     padding: 50px;
     background-size: contain;
     width: 920px;
