@@ -129,6 +129,7 @@ nav ul li a:link {
     justify-content: center;
     align-items: center;
 
+
     min-width: 500px;
     max-width: 1080px;
     
@@ -137,12 +138,11 @@ nav ul li a:link {
 
 
 #foto {
-    padding: 20px;
+    margin: 2px;
     background-size: contain;
-    width: 500px;   
-    height: 350px;
-    padding: 0;
-    margin: 15px;
+    width: 980px;   
+    height: 600px;
+
 }
 
 .foto1 { 
