@@ -5,7 +5,7 @@
 
 body {
     margin: 0 auto;
-    background-color: rgba(65, 65, 65, 0.952);
+    background-color: #95b0db;
     
 }
 
@@ -121,16 +121,58 @@ nav ul li a:link {
 /******************** CONTEUDO PRINCIPAL **********************/
 /*************************************************************/
 
-#principal {
-
-
+.principal {
+    background:  #95b0db;
+    width: 100vw;
+    height: 100%;
+    
+    background-size: cover;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-.fundo-principal {
-    background: url(../imagens/fundo.jpg);
-    width: 100vw;
-    height: 50%;
-    background-size: cover;
+.foto1 { 
+    background: url(../imagens/fotos/1.jpeg) no-repeat center ;
+    padding: 50px;
+    background-size: contain;
+    width: 920px;
+    height: 500px;
+    padding: 0;
+    margin: 15px;
+   
+}
+
+.foto2 { 
+    background: url(../imagens/fotos/2.jpeg) no-repeat center ;
+    padding: 50px;
+    background-size: contain;
+    width: 920px;
+    height: 500px;
+    padding: 0;
+    margin: 15px;
+   
+}
+.foto3 { 
+    background: url(../imagens/fotos/4.jpeg) no-repeat center ;
+    padding: 50px;
+    background-size: contain;
+    width: 920px;
+    height: 500px;
+    padding: 0;
+    margin: 15px;
+}
+
+.foto4 { 
+    background: url(../imagens/fotos/4.jpeg) no-repeat center ;
+    padding: 50px;
+    background-size: contain;
+    width: 920px;
+    height: 500px;
+    padding: 0;
+    margin: 15px;
+   
 }
 
 
