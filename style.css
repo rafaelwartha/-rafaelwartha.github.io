@@ -7,7 +7,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px !important;
+    width: 350px;
     height: 35px;
     background-color: rgba(128, 0, 100, 0.411);
     border-radius: 10px;
@@ -15,15 +15,15 @@ a {
     color: beige;
     text
 }
+
 body{
     background-image: url(fundo.jpg);
-    repeat: repeat-y;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    height: 100%;
-    max-width: 400px;
+
+ 
 }
 .principal{
     display: flex;
@@ -34,7 +34,6 @@ body{
 }
 
 .perfil {
-    background-image: url(rafael.png);
     width: 200px;
     height: 200px;
     border-radius: 50%;
