@@ -1,0 +1,60 @@
+* {
+    padding: 0;  
+    margin: 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px !important;
+    height: 35px;
+    background-color: rgba(128, 0, 100, 0.411);
+    border-radius: 10px;
+    text-decoration: none;
+    color: beige;
+    text
+}
+body{
+    background-image: url(fundo.jpg);
+    repeat: repeat-y;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
+    max-width: 400px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.perfil {
+    background-image: url(rafael.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.my-name {
+    color: white;
+    padding: 30px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.links a:hover {
+    background-color: purple;
+}
+
