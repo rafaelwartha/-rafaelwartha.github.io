@@ -19,6 +19,10 @@ a {
 
 body{
     background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +30,7 @@ body{
 
  
 }
+
 .principal{
     display: flex;
     flex-direction: column;
