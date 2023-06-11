@@ -18,6 +18,7 @@ a {
 }
 
 body{
+    background-color: #22142b;
     background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
