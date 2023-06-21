@@ -135,7 +135,7 @@ h2 {
   width: 30vw;
   height: 30vw;
   border-radius: 50%;
-  background-image: url(perfil.png);
+  background-image: url(image/perfil.png);
   background-size: cover;
   background-position: center;
 }
