@@ -238,8 +238,8 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 80vw;
-  max-height: auto;
+  width: 95vw;
+  max-width: 1440px;
   overflow: auto;
 }
 
@@ -256,11 +256,38 @@ footer {
     max-width: 1100px;
     margin-bottom: 50px;
   }
-
   .project-item {
     margin: 10px;
     width: 255px;
     height: 400px;
+  }
+
+}
+
+@media (max-height: 390px) {
+
+  .p-projects {
+    display: none;
+  }
+  .project-item {
+    margin: 10px;
+    width: 120px;
+    height: 190px;
+  }
+}
+
+@media (max-height: 710px) {
+
+  .p-projects {
+    display: none;
+  }
+
+}
+
+@media (max-height: 543px) {
+
+  .h2-projects {
+    display: none;
   }
 
 }
