@@ -265,14 +265,13 @@ footer {
 }
 
 @media (max-height: 390px) {
-
   .p-projects {
     display: none;
   }
   .project-item {
     margin: 10px;
-    width: 120px;
-    height: 190px;
+    width: 220px;
+    height: 300px;
   }
 }
 
