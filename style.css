@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #2d2d2d;
+}
+
 /* Header */
 header {
   display: flex;
@@ -208,6 +212,41 @@ footer {
   min-width: 360px;
   min-height: 360px;
 }
+
+.h2-projects {
+  font-size: 3em;
+  font-family: 'Anonymous Pro', monospace;
+  margin-bottom: 30px;
+}
+
+.p-projects {
+  font-size: 1.4em;
+  font-family: 'Fira Code', monospace;
+  max-width: 1100px;
+  margin-bottom: 100px;
+}
+
+
+
+.div-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+  max-height: 425px;
+  overflow: auto;
+}
+
+.project-item {
+  margin: 10px;
+  width: 255px;
+  height: 400px;
+}
+
+
+/* Estilize conforme necessário */
+
+
 
 @media (max-width: 920px) {
   .main {

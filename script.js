@@ -54,3 +54,5 @@ window.addEventListener('load', function() {
   // Iniciar a digitação letra por letra do nome
   addNameLetter();
 });
+
+
