@@ -216,6 +216,7 @@ footer {
 #projects {
   padding: 0;
   width: 95vw;
+  height: calc(100vh - 50px);
 }
 
 .h2-projects {
