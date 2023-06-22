@@ -213,6 +213,11 @@ footer {
   min-height: 360px;
 }
 
+#projects {
+  padding: 0;
+  width: 95vw;
+}
+
 .h2-projects {
   font-size: 3em;
   font-family: 'Anonymous Pro', monospace;
@@ -243,7 +248,7 @@ footer {
   height: 400px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .p-projects {
     font-size: 1.4em;
     font-family: 'Fira Code', monospace;
@@ -251,6 +256,22 @@ footer {
     margin-bottom: 50px;
   }
 
+  .project-item {
+    margin: 10px;
+    width: 255px;
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .p-projects{
+    display: none;
+  }
+
+  .h2-projects {
+    margin-bottom: 40px;
+  }
 }
 
 /* Estilize conforme necessário */
