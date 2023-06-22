@@ -264,7 +264,7 @@ footer {
 
 }
 
-@media (max-height: 390px) {
+@media (max-height: 414px) {
   .p-projects {
     display: none;
   }
