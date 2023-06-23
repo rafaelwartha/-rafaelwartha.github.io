@@ -15,6 +15,7 @@ header {
   padding: 0;
   height: 50px;
   background-color: #161616;
+  overflow: hidden;
 }
 
 h2 {
@@ -46,6 +47,7 @@ h2 {
   align-items: center;
   justify-content: center;
   background-color: #222222;
+  overflow: hidden;
 }
 
 .main {
@@ -159,6 +161,7 @@ footer {
   height: 50px;
   background-color: #161616;
   color: white;
+  overflow: hidden;
 }
 
 /* Button Links */
@@ -206,6 +209,7 @@ footer {
 
 #about-me {
   background-color: #2d2d2d;
+  overflow: hidden;
 }
 
 .perfil {
@@ -217,6 +221,7 @@ footer {
   padding: 0;
   width: 95vw;
   height: calc(100vh - 50px);
+  overflow: hidden;
 }
 
 .h2-projects {
@@ -241,6 +246,7 @@ footer {
   width: 95vw;
   max-width: 1440px;
   overflow: auto;
+  
 }
 
 .project-item {
@@ -738,6 +744,9 @@ footer {
  }
 
 
+.div{
+  overflow: hidden;
+}
 
 
   
