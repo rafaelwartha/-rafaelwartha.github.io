@@ -162,6 +162,8 @@ footer {
   background-color: #161616;
   color: white;
   overflow: hidden;
+  font-family: 'Fira Code', monospace;
+  
 }
 
 /* Button Links */
@@ -225,13 +227,13 @@ footer {
 }
 
 .h2-projects {
-  font-size: 3em;
+  font-size: 6vh;
   font-family: 'Anonymous Pro', monospace;
   margin-bottom: 30px;
 }
 
 .p-projects {
-  font-size: 1.4em;
+  font-size: 3vh;
   font-family: 'Fira Code', monospace;
   max-width: 1100px;
   margin-bottom: 100px;
@@ -241,22 +243,25 @@ footer {
 
 .div-item {
   display: flex;
-  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: center;
-  width: 95vw;
   max-width: 1440px;
   overflow: auto;
-  /* min-width: 467px;
-  min-height: 420px; */
-  
 }
 
 .project-item {
   margin: 10px;
-  width: 255px;
-  height: 400px;
-
 }
+
+.project-item img {
+  width: auto;
+  height: 80vh;
+  max-width: 225px;
+  max-height: 400px;
+  
+}
+
 
 @media (max-width: 450px) {
   .p-projects {
@@ -273,16 +278,6 @@ footer {
 
 }
 
-@media (max-height: 414px) {
-  .p-projects {
-    display: none;
-  }
-  .project-item {
-    margin: 10px;
-    width: 220px;
-    height: 300px;
-  }
-}
 
 @media (max-height: 710px) {
 
@@ -789,6 +784,8 @@ footer {
 .div{
   overflow: hidden;
 }
+
+
 
 
   

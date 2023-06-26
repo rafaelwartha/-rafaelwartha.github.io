@@ -1,60 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Exemplo</title>
-<meta charset="utf-8">
-<style type="text/css">
-body {
-    margin: 0;
-    padding: 0;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
 
-.div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+        .gif-container {
+        background-color: blue;
+        display: flex;
+        max-width: 1440px;
+        height: 70vh; /* Definindo altura máxima como 100% da altura da viewport */
+        max-height: 420px;
+        overflow: auto;
+        }
 
-.conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    align-items: center;
-    width: 100%;
-    overflow-x: auto;
-    max-width: 95vw;
-    
-}
+        .responsive-gif {
+        margin: 10px;    
+        }
 
-.card {
-    background-color: black;
-    min-width: 250px;
-    margin: 10px;
-    height: 200px;
-    text-align: center;
-}
-@media (min-width:1330px) {
-    .conteudo {
-        justify-content: center;
-    }
-}
-  
-</style>
+      </style>
 </head>
- <body>
-<div class="div">
-  <div class="conteudo" >
-    <div class="card">1</div>
-    <div class="card">2</div>
-    <div class="card">3</div>
-    <div class="card">4</div>
-    <div class="card">5</div>
-    <div class="card">1</div>
-    <div class="card">2</div>
-    <div class="card">3</div>
-    <div class="card">4</div>
-    <div class="card">5</div>
-  </div>
-</div>
+<body class="div-item">
+    <div class="gif-container">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+        <img src="gif.gif" alt="GIF" class="responsive-gif">
+      </div>
+
+      
 </body>
+</html>
