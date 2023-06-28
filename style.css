@@ -6,8 +6,6 @@
 body {
   background-color: #2d2d2d;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: center;
@@ -37,7 +35,6 @@ p {
   max-width: 1440px;
 }
 
-/* Main */
 h2 {
   font-family: 'Anonymous Pro', monospace;
 }
@@ -69,14 +66,14 @@ h2 {
 }
 
 .main-left h2 {
-  font-size: 3em; /* Altere o valor para o tamanho de fonte desejado */
+  font-size: 3em;
   text-align: left;
   background-color: #222222;
   
 }
 
 .main-left p {
-  font-size: 1.5em; /* Altere o valor para o tamanho de fonte desejado */
+  font-size: 1.5em; 
   text-align: left;
 }
 
@@ -99,7 +96,7 @@ h2 {
 }
 
 .redes-sociais li img:hover {
-  transform: scale(1.2); /* Altere o valor para o zoom desejado */
+  transform: scale(1.2); 
 }
 
 .p-main {
@@ -107,7 +104,6 @@ h2 {
   min-height: 120px;
 }
 
-/* Header */
 .header-left {
   display: flex;
   align-items: center;
@@ -146,14 +142,14 @@ h2 {
   background-position: center;
 }
 
-/* Sections */
+
 section {
   padding: 25px;
   height: calc(100vh - 100px);
   max-width: 1440px;
 }
 
-/* Footer */
+
 footer {
   display: flex;
   justify-content: center;
@@ -166,7 +162,6 @@ footer {
   
 }
 
-/* Button Links */
 .button-link {
   font-size: 20px;
   color: white;
@@ -248,6 +243,23 @@ footer {
   align-items: center;
   max-width: 1440px;
   overflow: auto;
+
+}
+
+.div-item::-webkit-scrollbar {
+  width: 10px;
+}
+
+.div-item::-webkit-scrollbar-track {
+  background: #606060;
+}
+
+.div-item::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.div-item::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .project-item {
@@ -304,11 +316,6 @@ footer {
     margin-bottom: 40px;
   }
 }
-
-/* Estilize conforme necessário */
-
-
-
 @media (max-width: 920px) {
   .main {
     display: flex;
@@ -324,7 +331,7 @@ footer {
   }
   .main-left h2 {
     margin-top: 20px;
-    font-size: 2em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 2em; 
     text-align: left;
     background-color: #222222;
     
@@ -336,7 +343,7 @@ footer {
 }
   
   .main-left p {
-    font-size: 1.3em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1.3em; 
     text-align: left;
   }
 
@@ -367,14 +374,14 @@ footer {
   }
   .main-left h2 {
     margin-top: 20px;
-    font-size: 1.5em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1.5em; 
     text-align: left;
     background-color: #222222;
     
   }
   
   .main-left p {
-    font-size: 1em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1em; 
     text-align: left;
   }
 
@@ -433,14 +440,14 @@ footer {
   }
   .main-left h2 {
     margin-top: 20px;
-    font-size: 1.5em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1.5em; 
     text-align: left;
     background-color: #222222;
     
   }
   
   .main-left p {
-    font-size: 1em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1em; 
     text-align: left;
   }
 
@@ -563,7 +570,7 @@ footer {
     
   .main-left h2 {
     margin-top: 20px;
-    font-size: 1.5em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1.5em; 
     text-align: left;
     background-color: #222222;
     
@@ -574,7 +581,7 @@ footer {
 }
   
   .main-left p {
-    font-size: 1em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1em;
     text-align: left;
   }
 
@@ -604,14 +611,14 @@ footer {
 
   .main-left h2 {
     margin-top: 20px;
-    font-size: 3em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 3em; 
     text-align: left;
     background-color: #222222;
     
   }
   
   .main-left p {
-    font-size: 1.5em; /* Altere o valor para o tamanho de fonte desejado */
+    font-size: 1.5em;
     text-align: left;
   }
   }
@@ -667,15 +674,9 @@ footer {
     margin-bottom: 10px;
     object-fit: cover;
     margin: 5px;
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Adiciona bordas arredondadas */ 
+    border: none; 
+    border-radius: 5px; 
   }
-
-
-
-
-  /* resulucoes menores  */
-
 
   @media (max-width: 1400px) {
 
@@ -684,7 +685,6 @@ footer {
     }
  
  }
- 
  
  @media (max-width: 1290px) {
  
@@ -783,11 +783,6 @@ footer {
     font-size: 0.8em;
   }
  }
-
-
-.div{
-  overflow: hidden;
-}
 
 
 
