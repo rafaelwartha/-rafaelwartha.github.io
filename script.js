@@ -30,7 +30,7 @@ window.addEventListener('load', function() {
     var textElement = document.querySelector('.p-main');
 
     // Texto a ser digitado letra por letra
-    var text = "Currently, I am a student studying IT with a specific focus on back-end development using PHP. My main goal is to enhance my skills and knowledge in this field.";
+    var text = "I am now a developer specializing in back-end development using PHP. My primary goal is to further improve my skills and knowledge in this field.";
 
     // Intervalo entre cada letra do texto (em milissegundos)
     var interval = 20;
